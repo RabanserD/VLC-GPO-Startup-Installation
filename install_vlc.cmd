@@ -45,3 +45,4 @@ ECHO ###VLC 2.2.6 is already installed, skipping installation
 GOTO END
 
 :END
+::Find this script on GitHub -> https://github.com/RabanserD/VLC-GPO-Startup-Installation - Copyright (c) 2017 Daniel Rabanser
