@@ -5,7 +5,7 @@
 ::Set your desired destination version of VLC
 SET vlcversion=2.2.6
 
-::Set your installation source path. E.g. results in (64Bit) -> \\domain.local\dfs\software\VLC\2.2.6\vlc-2.2.6-win64.exe
+::Set your installation source path. E.g. 64Bit results in -> \\domain.local\dfs\software\VLC\2.2.6\vlc-2.2.6-win64.exe
 SET vlcsource=\\domain.local\dfs\software\VLC\%vlcversion%\
 
 ::Set your desired log path. E.g. results in -> C:\Windows\temp\
