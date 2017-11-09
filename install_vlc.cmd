@@ -28,7 +28,7 @@ GOTO END
 SET lfvlc="%vlclogpath%%vlclogfilename%"
 
 ::Writing base information to log file
-ECHO ###%date% - %time% - VLC installation started on %hostname% > %lfvlc%
+ECHO ###%date% - %time% - VLC installation started on %computername% > %lfvlc%
 ECHO. >> %lfvlc%
 ECHO ###Checking installed VLC version >> %lfvlc%
 ECHO ###Obsolete or no VLC version detected, proceeding with installation >> %lfvlc%
