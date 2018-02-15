@@ -39,9 +39,9 @@ TASKKILL /F /IM vlc.exe /T >> %lfvlc%
 
 ::Determining OS architecture
 ECHO ###Determining OS architecture >> %lfvlc%
-REG QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v "BuildLabEx" | find "x86"
-IF %ERRORLEVEL == 1 GOTO INSTALL64
-IF %ERRORLEVEL == 0 GOTO INSTALL86
+REG QUERY "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v "BuildLabEx" | find "amd64"
+IF %ERRORLEVEL == 1 GOTO INSTALL86
+IF %ERRORLEVEL == 0 GOTO INSTALL64
 GOTO END
 
 :INSTALL86
