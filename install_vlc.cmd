@@ -3,7 +3,7 @@
 ::Parameter Region
 ::Parameterize those 4 variables for your specific needs
 ::Set your desired destination version of VLC
-SET vlcversion=2.2.6
+SET vlcversion=3.0.0
 
 ::Set your installation source path. E.g. 64Bit results in -> \\domain.local\dfs\software\VLC\2.2.6\vlc-2.2.6-win64.exe
 SET vlcsource=\\domain.local\dfs\software\VLC\%vlcversion%\
