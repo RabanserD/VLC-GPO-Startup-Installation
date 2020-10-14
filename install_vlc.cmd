@@ -3,15 +3,15 @@
 ::Parameter Region
 ::Parameterize those 4 variables for your specific needs
 ::Set your desired destination version of VLC
-SET vlcversion=3.0.8
+SET vlcversion=3.0.11
 
-::Set your installation source path. E.g. 64Bit results in -> \\domain.local\dfs\software\VLC\3.0.8\vlc-3.0.8-win64.exe
+::Set your installation source path. E.g. 64Bit results in -> \\domain.local\dfs\software\VLC\3.0.11\vlc-3.0.11-win64.exe
 SET vlcsource=\\domain.local\dfs\software\VLC\%vlcversion%\
 
 ::Set your desired log path. E.g. results in -> C:\Windows\temp\
 SET vlclogpath=%systemroot%\temp\
 
-::Set your desired log file name scheme. E.g. results in -> GPO_Install_VLC_YourPCName_3.0.8.log
+::Set your desired log file name scheme. E.g. results in -> GPO_Install_VLC_YourPCName_3.0.11.log
 SET vlclogfilename=GPO_Install_VLC_%computername%_%vlcversion%.log
 
 
